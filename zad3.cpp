@@ -3,11 +3,11 @@
 using namespace std;
 int main () 
 {
-string password = "student";
+string password = "profesor";
 string x="";
 do
 {
-    cout << "Podaj hasło";
+    cout << "Podaj hasło: ";
     getline(cin,x);
 
 } 
