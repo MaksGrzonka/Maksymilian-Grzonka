@@ -2,17 +2,16 @@
 #include <iostream>
 #include <algorithm>
 
-using namespace std;
 
 
 
 int main() {
 
     int n;
-    cout << "podaj liczbę;" << endl;
-    cin>>n;
-    cout <<"podana liczba to;" << endl;
-    cout << "wartość absolutna to: " <<abs(n) << endl;
+    std::cout << "podaj liczbę;" << std::endl;
+    std::cin>>n;
+    std::cout <<"podana liczba to;" << std::endl;
+    std::cout << "wartość absolutna to: " <<abs(n) << std::endl;
 
     return 0;
 
