@@ -1,17 +1,17 @@
 #include <iostream>
-using namespace std;
+
 int main() {
     int liczba_1;
-    cout << "podaj dowolna liczbe: " << endl;
-    cin >> liczba_1;
+    std::cout << "podaj dowolna liczbe: " << std::endl;
+    std::cin >> liczba_1;
     if (liczba_1 > 1) {
-        cout << "1" << endl;
+        std::cout << "1" << std::endl;
     }
     if (liczba_1 < 0) {
-        cout << "-1" << endl;
+        std::cout << "-1" << std::endl;
     }
     if (liczba_1 == 0) {
-        cout << "0" << endl;
+        std::cout << "0" << std::endl;
     }
     
 
