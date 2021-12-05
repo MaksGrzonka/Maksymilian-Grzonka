@@ -1,0 +1,48 @@
+
+ALFABET; A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, U, P, R, S, T, W, Y, Z.
+
+HASŁA DO WISIELCA; HANGMAN, SRACZKA, ZADANIE, PROJEKT, ...
+
+WSTĘPNNY DESIGN PROGRAMU ;
+
+1. OKNO STARTOWE;
+
+#-----------------------#--------------#
+|       WISIELEC        |				   
+#-----------------------#	       _ _		   
+|        HASLO;         |	      |  |		   
+#-----------------------#	      0  |		   
+|                       |	     /|\ |		   
+|    _._._._._._._      |	      |  |		   
+#-----------------------#	     / \ |   
+|A, B, C, D, E, F, G, H,|	         | 
+|I, J, K, L, M, N, O, U,|         /\   
+|  P, R, S, T, W, Y, Z, |              
+#-----------------------#--------------#
+
+2. DESIGN WISIELCA;
+	
+	  _ _
+	 |  |
+	 0  |
+	/|\ |
+	 |  |
+	/ \ |
+	    |
+	   / \
+
+3. ZASADY GRY;
+Gracz ma 7 prób na odgadnięcie hasła, jeśli nie odgadnie wisielec zostaje narysowany do końca i gra zostaje zakończona.
+
+
+
+4. PROCES PISANIA KODU;
+	1. Determinowanie graficznego rozmiaru gry.
+	2. Proces rysowania wisielca.
+	3. Proces determinowania zgadywania liter przez gracza.
+	4. Słowo nie zostanie odgadnięte wywoływanie void na rysowanie wisielca i print ilość prób.  
+	5. Main body kodu.
+  
+		
+	Przerwa FILM_2 MINUTA 8;42
+
